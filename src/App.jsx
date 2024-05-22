@@ -19,7 +19,7 @@ function App() {
   }, [running]);
 
   return (
-    <div className="max-w-md flex flex-col items-center justify-center py-8">
+    <div className="max-w-m flex flex-col items-center justify-center py-10">
       <h1 className='text-2xl font-semibold pb-2' >01-Timer</h1>
       <div className='text-xl font-semibold'>
         <span>{("0" + Math.floor((time / 60000) % 60)).slice(-2)}:</span>
